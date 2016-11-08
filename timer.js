@@ -47,31 +47,4 @@ $('#start').click(function (){
   meditate();
 });
 
-    // // Initial Countdown Code Starts Here
 
-    //
-    // var deadline1 = Date.parse(new Date()) + 8000;
-    //
-    // function getReady(endtime) {
-    // var t = endtime - Date.parse(new Date());
-    // var seconds = Math.floor( (t/1000) % 60);
-    // return {
-    // "total": t,
-    // "seconds": seconds
-    // };
-    // }
-    //
-    // function initializeClock1(id, endtime) {
-    // timeInMinutes = parseInt(document.getElementById('lengthInput').value);
-    // var clock = document.getElementById(id);
-    // var timeInterval = setInterval(function() {
-    // var t = getReady(endtime);
-    // clock.innerHTML = "Get Ready: " + t.seconds;
-    // if(t.total <= 0){
-    //   clearInterval(timeInterval)
-    //   $('#clockdiv').toggle();
-    //   $('#countdowndiv').remove();
-    //   meditate();
-    // }
-    // })
-    // };
