@@ -1,3 +1,5 @@
+// checking branch on git
+
 var meditateMinutes = 10;
 var meditateSeconds = "00";
 var timeInterval;
